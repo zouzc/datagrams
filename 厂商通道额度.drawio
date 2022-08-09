@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2022-08-09T10:06:11.084Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.47" version="20.2.3" etag="6--pabeLOkLaDuDlDOJq" type="github"><diagram id="jjFyxRPPCyGW1t3CLzFR">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-09T10:11:54.705Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.47" etag="XZVCObU1YTvChdxWaTTN" version="20.2.3" type="github">
+  <diagram id="jjFyxRPPCyGW1t3CLzFR" name="第 1 页">
+    <mxGraphModel dx="1761" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Yr17o2OQxQMlJxm22NJ1-1" value="feedback" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr17o2OQxQMlJxm22NJ1-2" value="小米" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr17o2OQxQMlJxm22NJ1-3" value="vivo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr17o2OQxQMlJxm22NJ1-4" value="oppo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr17o2OQxQMlJxm22NJ1-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Yr17o2OQxQMlJxm22NJ1-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="350" as="sourcePoint" />
+            <mxPoint x="260" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yr17o2OQxQMlJxm22NJ1-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.401;entryY=1.024;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.351;exitY=-0.035;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="341.1199999999999" y="377.9000000000001" as="sourcePoint" />
+            <mxPoint x="361.1199999999999" y="301.44000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yr17o2OQxQMlJxm22NJ1-7" value="拉取额度" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Yr17o2OQxQMlJxm22NJ1-1" target="Yr17o2OQxQMlJxm22NJ1-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="332.1199999999999" y="387.9000000000001" as="sourcePoint" />
+            <mxPoint x="352.1199999999999" y="311.44000000000005" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yr17o2OQxQMlJxm22NJ1-11" value="push_serverv2_d" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr17o2OQxQMlJxm22NJ1-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="325" y="440" as="sourcePoint" />
+            <mxPoint x="325" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yr17o2OQxQMlJxm22NJ1-13" value="通知额度更新" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Yr17o2OQxQMlJxm22NJ1-12">
+          <mxGeometry x="-0.3607" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
