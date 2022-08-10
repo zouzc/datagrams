@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T02:55:55.443Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.47" version="20.2.3" etag="F64_elQ6lVcnfhvvmfAz" type="github"><diagram id="gnHP6eTFnTqPSuuaygHf">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-10T09:26:54.215Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.47" etag="ydRmEuaAjUZhBHO2XQdG" version="20.2.3" type="github">
+  <diagram id="gnHP6eTFnTqPSuuaygHf" name="第 1 页">
+    <mxGraphModel dx="1761" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontColor=#000000;" edge="1" parent="1" source="kMBdWHKxeqQlBaJ8bn-s-8" target="kMBdWHKxeqQlBaJ8bn-s-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-8" value="检查collapseId是否已处理(dup:$appId:$colId)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="200" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=16;fontColor=#000000;" edge="1" parent="1" source="kMBdWHKxeqQlBaJ8bn-s-9" target="kMBdWHKxeqQlBaJ8bn-s-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-9" value="检查msgId是否已处理(dup:$appId:$msgId)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="290" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-10" value="保存1,2的key,用于去重，value是当前服务器时间" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="370" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-11" value="输入" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-12" value="结束" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-16" value="uri" style="rhombus;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="460" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-17" value="token推送" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-18" value="uid推送" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-19" value="hdid推送" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-20" value="按msgId本地去昝(保存600s)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-21" value="根据uid获取绑定关系(token,厂商token等)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="750" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-22" value="根据绑定时间,只绑定最新平台(android,ios,win,ipad)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="840" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-23" value="按版本号过滤(&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;策略从哪来?&lt;/font&gt;)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="930" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-24" value="按业务类型过滤(&lt;font color=&quot;#ff3333&quot;&gt;?&lt;/font&gt;)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1010" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-26" value="根据token推送频率限制(&lt;b&gt;怎么实现的?)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1100" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-27" value="命中yy通道优先或ab实验yy优先规则,分成两组,查所有token是否在线" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1190" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-28" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1280" width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
