@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-11T03:48:25.892Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.47" etag="Y9cJ0-UWKtq9wwdn_bJq" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-11T03:50:45.139Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.47" etag="RN0npQgKkfnCDlCVy_rT" version="20.2.3" type="github">
   <diagram id="gnHP6eTFnTqPSuuaygHf" name="第 1 页">
     <mxGraphModel dx="1761" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -112,6 +112,9 @@
         </mxCell>
         <mxCell id="kMBdWHKxeqQlBaJ8bn-s-47" value="扔到yy通道队列" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="2250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-48" value="统计未绑定的设备" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="2400" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
