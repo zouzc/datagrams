@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T09:26:54.215Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.47" etag="ydRmEuaAjUZhBHO2XQdG" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-11T03:48:25.892Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.47" etag="Y9cJ0-UWKtq9wwdn_bJq" version="20.2.3" type="github">
   <diagram id="gnHP6eTFnTqPSuuaygHf" name="第 1 页">
     <mxGraphModel dx="1761" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,10 +56,62 @@
           <mxGeometry x="160" y="1100" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kMBdWHKxeqQlBaJ8bn-s-27" value="命中yy通道优先或ab实验yy优先规则,分成两组,查所有token是否在线" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="1190" width="160" height="60" as="geometry" />
+          <mxGeometry x="160" y="1190" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kMBdWHKxeqQlBaJ8bn-s-28" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="1280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-31" value="怎么判断hdid是否命中ab实验的?" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1190" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-32" value="sdk" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-33" value="psuh_wsfront_d" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1724" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-34" value="ReportStatistics(上报送达,点击)" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=#FF3333;exitX=0.159;exitY=1.024;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kMBdWHKxeqQlBaJ8bn-s-32">
+          <mxGeometry x="0.4317" y="-100" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="1690" as="sourcePoint" />
+            <mxPoint x="370" y="1720" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-35" value="&lt;br&gt;&lt;span lang=&quot;EN-US&quot;&gt;ReportThirdToken(上报第三方token(&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=#FF3333;exitX=0.914;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kMBdWHKxeqQlBaJ8bn-s-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="1660" as="sourcePoint" />
+            <mxPoint x="460" y="1720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-38" value="iosmsg为空?" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-39" value="尝试向iphone发送" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-40" value="尝试向ipad发送" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-41" value="统计解绑" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-42" value="按app版本过滤,token过滤" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="2090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-43" value="andMsg为空?" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-44" value="根据uid判断是否已推送" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-45" value="获取yytoken" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="2070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-46" value="token,版本过滤" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="2160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMBdWHKxeqQlBaJ8bn-s-47" value="扔到yy通道队列" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="2250" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
