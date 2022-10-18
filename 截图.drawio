@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-18T02:45:48.786Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.42" etag="Q-dlQL_A6yzyoK0c_0WY" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-18T03:45:40.026Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.42" etag="LzGRdG8j_Edr5KeuQPVM" version="20.3.3" type="github">
   <diagram id="G4VCRK8Csk8wpURVzlBt" name="第 1 页">
     <mxGraphModel dx="2588" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,27 +29,33 @@
           <mxGeometry x="210" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lSKlVjip9Zj7Ai8yjFb1-3" value="im_datadispatch_d" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="90" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lSKlVjip9Zj7Ai8yjFb1-4" value="im_dndatalink_d" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry y="390" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="lSKlVjip9Zj7Ai8yjFb1-18" value="PSS_TcpDataUpload" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.64;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lSKlVjip9Zj7Ai8yjFb1-5" target="lSKlVjip9Zj7Ai8yjFb1-3">
+          <mxGeometry x="0.2174" y="-10" relative="1" as="geometry">
+            <mxPoint x="170" y="520" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="lSKlVjip9Zj7Ai8yjFb1-5" value="im_updatalink_d" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="390" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lSKlVjip9Zj7Ai8yjFb1-6" value="im_imagefront_d" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="290" y="525" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lSKlVjip9Zj7Ai8yjFb1-7" value="im_imageaccess_d" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="585" width="120" height="60" as="geometry" />
+          <mxGeometry x="530" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lSKlVjip9Zj7Ai8yjFb1-8" value="im_databridge_d" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="410" y="720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lSKlVjip9Zj7Ai8yjFb1-9" value="im_imagestore_d" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="480" width="120" height="60" as="geometry" />
+          <mxGeometry x="10" y="700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lSKlVjip9Zj7Ai8yjFb1-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lSKlVjip9Zj7Ai8yjFb1-10">
+        <mxCell id="lSKlVjip9Zj7Ai8yjFb1-14" value="PSS_NotifyDownloadSS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lSKlVjip9Zj7Ai8yjFb1-10">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="40" y="390" as="targetPoint" />
             <Array as="points">
@@ -64,6 +70,16 @@
         </mxCell>
         <mxCell id="lSKlVjip9Zj7Ai8yjFb1-10" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;p2plinkd&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="260" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lSKlVjip9Zj7Ai8yjFb1-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.88;exitY=1.092;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lSKlVjip9Zj7Ai8yjFb1-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="490" as="sourcePoint" />
+            <mxPoint x="330" y="520" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSKlVjip9Zj7Ai8yjFb1-20" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;PSS_TcpDataUpload（跨机房）&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="470" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
