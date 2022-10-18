@@ -1,11 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2022-10-18T02:14:42.916Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.42" etag="3CrjGwuTuYVLtRhYOJnF" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-18T02:45:48.786Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.42" etag="Q-dlQL_A6yzyoK0c_0WY" version="20.3.3" type="github">
   <diagram id="G4VCRK8Csk8wpURVzlBt" name="第 1 页">
-    <mxGraphModel dx="1766" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2588" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="lSKlVjip9Zj7Ai8yjFb1-1" value="im_image_nginx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lSKlVjip9Zj7Ai8yjFb1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.402;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lSKlVjip9Zj7Ai8yjFb1-2" target="lSKlVjip9Zj7Ai8yjFb1-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lSKlVjip9Zj7Ai8yjFb1-12" value="protocol::p2p::PSS_HTTPUpload&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lSKlVjip9Zj7Ai8yjFb1-11">
+          <mxGeometry x="0.1215" y="-1" relative="1" as="geometry">
+            <mxPoint x="-36" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSKlVjip9Zj7Ai8yjFb1-13" value="protocol::p2p::PSS_HTTPDownload" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry x="-0.6" y="-10" relative="1" as="geometry">
+            <mxPoint x="153" y="280" as="targetPoint" />
+            <mxPoint x="263" y="220" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="263" y="280" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="lSKlVjip9Zj7Ai8yjFb1-2" value="im_imagehttp_d" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="160" width="120" height="60" as="geometry" />
@@ -14,22 +32,38 @@
           <mxGeometry x="400" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lSKlVjip9Zj7Ai8yjFb1-4" value="im_dndatalink_d" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lSKlVjip9Zj7Ai8yjFb1-5" value="im_updatalink_d" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lSKlVjip9Zj7Ai8yjFb1-6" value="im_imagefront_d" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="430" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lSKlVjip9Zj7Ai8yjFb1-7" value="im_imageaccess_d" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="525" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="585" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lSKlVjip9Zj7Ai8yjFb1-8" value="im_databridge_d" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="430" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lSKlVjip9Zj7Ai8yjFb1-9" value="im_imagestore_d" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="430" width="120" height="60" as="geometry" />
+          <mxGeometry x="530" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lSKlVjip9Zj7Ai8yjFb1-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lSKlVjip9Zj7Ai8yjFb1-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSKlVjip9Zj7Ai8yjFb1-15" value="PSS_NotifyUploadSS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lSKlVjip9Zj7Ai8yjFb1-10" target="lSKlVjip9Zj7Ai8yjFb1-5">
+          <mxGeometry x="0.3333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSKlVjip9Zj7Ai8yjFb1-10" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;p2plinkd&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="260" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
