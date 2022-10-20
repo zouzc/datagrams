@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-20T10:01:49.970Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.47" etag="SOAvIXEv1L9SdyueJB3l" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-20T10:28:47.546Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.47" etag="REo2K6YBUSsELA-MwgkW" version="20.4.1" type="github">
   <diagram id="k8bAJB1qmFqMdXTT0vVw" name="第 1 页">
     <mxGraphModel dx="2588" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -396,6 +396,15 @@
         </mxCell>
         <mxCell id="2essbwHGqWexgN-ZuVHU-106" value="__SendMultiRouteMsg" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="940" y="1800" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2essbwHGqWexgN-ZuVHU-107" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.167;exitY=1.028;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2essbwHGqWexgN-ZuVHU-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="1350" as="sourcePoint" />
+            <mxPoint x="380" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2essbwHGqWexgN-ZuVHU-109" value="1.将消息保存到发送者的消息列表中&lt;br&gt;2.将消息保存到接收者的消息列表中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1400" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
