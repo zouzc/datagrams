@@ -1,17 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2022-11-09T14:04:27.037Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="uRMlLrEDK62IzSEkXJQE" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-11T14:31:45.255Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="MjJsdu9OQ0LqknX9yMtC" version="20.5.3" type="github">
   <diagram id="lLAGZDM0bcGLHkzx-WZg" name="Page-1">
-    <mxGraphModel dx="1088" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0FmRQxhHpZ-kqWJhrowM-1" value="BackLinkHander.OnData&lt;br&gt;读取数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0FmRQxhHpZ-kqWJhrowM-1" value="BackLinkHander.OnData&lt;br&gt;读取数据" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="70" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0FmRQxhHpZ-kqWJhrowM-2" value="Request req(data,len),读取一个消息(yyp头部)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0FmRQxhHpZ-kqWJhrowM-2" value="Request req(data,len),读取一个消息(yyp头部)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0FmRQxhHpZ-kqWJhrowM-3" value="IAppContextEx.RequestDispatch&lt;br&gt;派发消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0FmRQxhHpZ-kqWJhrowM-3" value="IAppContextEx.RequestDispatch&lt;br&gt;派发消息" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="200" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C2eoTMu8xBgz23pvHgma-1" value="__HandleMultiRouteChatMsg" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="400" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C2eoTMu8xBgz23pvHgma-2" value="pAntiSpamMgr-&amp;gt;Check" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="540" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
