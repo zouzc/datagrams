@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2022-12-23T09:43:06.827Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" version="20.5.1" etag="LJCFGNO5UwPiqR5jNuiT" type="github"><diagram id="QdjxIvEJR9LBu93KxpUd">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-23T10:07:42.398Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" etag="FcLFwc_LKksSxx6immBN" version="20.5.1" type="github">
+  <diagram id="QdjxIvEJR9LBu93KxpUd" name="第 1 页">
+    <mxGraphModel dx="1761" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XQiLgrGhuhs7tkKkDPyf-1" value="imlink" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XQiLgrGhuhs7tkKkDPyf-2" value="im_listfront" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XQiLgrGhuhs7tkKkDPyf-3" value="im_listcore" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XQiLgrGhuhs7tkKkDPyf-4" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;tbl_buddylist&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="390" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XQiLgrGhuhs7tkKkDPyf-5" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;memcache&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="390" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
