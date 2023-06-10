@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-10T08:26:20.654Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="8f-Ob5w7btU77AOLlxtl" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-10T08:54:36.377Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="zCBQ-cgvfZyBFchiD_vY" version="21.1.1" type="github">
   <diagram name="第 1 页" id="KKsY59eh9XaDmgX87wVV">
-    <mxGraphModel dx="1198" dy="1734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1198" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -135,13 +135,18 @@
         <mxCell id="A7drEQn15BSyyHfxk9KO-89" value="GCHAT_ACCEPTOR" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="1039" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="A7drEQn15BSyyHfxk9KO-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A7drEQn15BSyyHfxk9KO-92">
+        <mxCell id="A7drEQn15BSyyHfxk9KO-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A7drEQn15BSyyHfxk9KO-92">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="-716.9999980926514" as="targetPoint" />
+            <mxPoint x="730" y="878" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="A7drEQn15BSyyHfxk9KO-92" value="GAUTH_TO_GCHAT_LEADER" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="838" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A7drEQn15BSyyHfxk9KO-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A7drEQn15BSyyHfxk9KO-93">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="978" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="A7drEQn15BSyyHfxk9KO-93" value="GAUTH_TO_GCHAT_ACCETPOR" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="938" width="200" height="80" as="geometry" />
@@ -151,6 +156,11 @@
         </mxCell>
         <mxCell id="A7drEQn15BSyyHfxk9KO-95" value="节点isp是CTL?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="304" y="1039" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A7drEQn15BSyyHfxk9KO-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A7drEQn15BSyyHfxk9KO-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="1079" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="A7drEQn15BSyyHfxk9KO-100" value="ACCETPOR_TO_LEADER" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="1039" width="200" height="80" as="geometry" />
@@ -229,8 +239,35 @@
         <mxCell id="A7drEQn15BSyyHfxk9KO-122" value="更新本地缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="1388" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="A7drEQn15BSyyHfxk9KO-126" value="1.回响应&lt;br&gt;2.同步acceptor&lt;br&gt;3.持久化&lt;br&gt;4.更新缓存&lt;br&gt;5.同zone的proxy派发" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="830" width="150" height="80" as="geometry" />
+        <mxCell id="A7drEQn15BSyyHfxk9KO-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A7drEQn15BSyyHfxk9KO-126" target="A7drEQn15BSyyHfxk9KO-102">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="1070" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="805" y="790" />
+              <mxPoint x="60" y="790" />
+              <mxPoint x="60" y="1218" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7drEQn15BSyyHfxk9KO-126" value="1.回响应&lt;br&gt;2.同步acceptor,派发到&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;其它zone&lt;/font&gt;&lt;/b&gt;相应slot的主从节点&lt;br&gt;3.持久化&lt;br&gt;4.更新缓存&lt;br&gt;5.同zone的proxy派发" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="838" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A7drEQn15BSyyHfxk9KO-133" value="同节点gChatDis转发&lt;br&gt;怎么跨网派发?&lt;br&gt;PSS_GSyncMsg" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="848" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A7drEQn15BSyyHfxk9KO-135" value="1.响应(跟linkd同isp才回包)&lt;br&gt;2.更新缓存&lt;br&gt;3.同zone的proxy派发" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="1049" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A7drEQn15BSyyHfxk9KO-138" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A7drEQn15BSyyHfxk9KO-137">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="978" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7drEQn15BSyyHfxk9KO-137" value="重试次数&amp;gt;=阈值&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="938" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A7drEQn15BSyyHfxk9KO-139" value="其它zone的从节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="948" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
