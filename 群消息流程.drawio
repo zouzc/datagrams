@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-10T09:19:47.522Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="chu2j88zEEQATWEMGpvl" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-10T09:23:24.992Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="24YMrnC-uFqY6RwQAuzk" version="21.1.1" type="github">
   <diagram name="第 1 页" id="KKsY59eh9XaDmgX87wVV">
     <mxGraphModel dx="1508" dy="861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -242,7 +242,7 @@
         <mxCell id="A7drEQn15BSyyHfxk9KO-122" value="更新本地缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="1388" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="A7drEQn15BSyyHfxk9KO-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="A7drEQn15BSyyHfxk9KO-126" target="A7drEQn15BSyyHfxk9KO-102">
+        <mxCell id="A7drEQn15BSyyHfxk9KO-132" value="同步联通zone的gChat" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontColor=#FF3333;" edge="1" parent="1" source="A7drEQn15BSyyHfxk9KO-126" target="A7drEQn15BSyyHfxk9KO-102">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="70" y="1070" as="targetPoint" />
             <Array as="points">
@@ -258,7 +258,7 @@
         <mxCell id="A7drEQn15BSyyHfxk9KO-133" value="同节点gChatDis转发&lt;br&gt;怎么跨网派发?&lt;br&gt;PSS_GSyncMsg" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="950" y="848" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="A7drEQn15BSyyHfxk9KO-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="A7drEQn15BSyyHfxk9KO-135">
+        <mxCell id="A7drEQn15BSyyHfxk9KO-150" value="同步联通zone的gChat" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontColor=#FF3333;" edge="1" parent="1" source="A7drEQn15BSyyHfxk9KO-135">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="100" y="1220" as="targetPoint" />
             <Array as="points">
@@ -290,7 +290,7 @@
         <mxCell id="A7drEQn15BSyyHfxk9KO-139" value="其它zone的从节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1060" y="948" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="A7drEQn15BSyyHfxk9KO-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#0000FF;" edge="1" parent="1" source="A7drEQn15BSyyHfxk9KO-140" target="A7drEQn15BSyyHfxk9KO-89">
+        <mxCell id="A7drEQn15BSyyHfxk9KO-143" value="派发到电信zone,由其生成消息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#0000FF;fontStyle=1;fontColor=#0000FF;" edge="1" parent="1" source="A7drEQn15BSyyHfxk9KO-140" target="A7drEQn15BSyyHfxk9KO-89">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="330" y="1140" as="targetPoint" />
             <Array as="points">
