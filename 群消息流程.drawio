@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-10T08:20:27.129Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="xA74KFRN2SMibWhm5HtM" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-10T08:21:01.666Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="kVa9AokXfDGCgtSqa9PV" version="21.1.1" type="github">
   <diagram name="第 1 页" id="KKsY59eh9XaDmgX87wVV">
     <mxGraphModel dx="1000" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -187,6 +187,9 @@
         <mxCell id="A7drEQn15BSyyHfxk9KO-112" value="节点isp是CTL &amp;amp;&amp;amp;&lt;br&gt;节点不是sot主节点" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="304" y="1000" width="136" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="A7drEQn15BSyyHfxk9KO-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A7drEQn15BSyyHfxk9KO-113" target="A7drEQn15BSyyHfxk9KO-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="A7drEQn15BSyyHfxk9KO-113" value="SLOT_MAIN_TO_SLAVE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="1000" width="200" height="80" as="geometry" />
         </mxCell>
@@ -204,8 +207,14 @@
         <mxCell id="A7drEQn15BSyyHfxk9KO-117" value="节点isp是CTL &amp;amp;&amp;amp;&lt;br&gt;节点是sot主节点" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="304" y="1130" width="136" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="A7drEQn15BSyyHfxk9KO-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="A7drEQn15BSyyHfxk9KO-118" target="A7drEQn15BSyyHfxk9KO-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="A7drEQn15BSyyHfxk9KO-118" value="SLOT_SLAVE_TO_MAIN" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="1130" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A7drEQn15BSyyHfxk9KO-122" value="更新本地缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1070" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
