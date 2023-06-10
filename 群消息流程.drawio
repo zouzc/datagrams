@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-10T09:09:16.088Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="KzOMYPDmW7zvpO8b1mGG" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-10T09:10:39.171Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="7yv3jE2hRg_t8QrOmi5_" version="21.1.1" type="github">
   <diagram name="第 1 页" id="KKsY59eh9XaDmgX87wVV">
     <mxGraphModel dx="1418" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -159,10 +159,10 @@
         </mxCell>
         <mxCell id="A7drEQn15BSyyHfxk9KO-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A7drEQn15BSyyHfxk9KO-100">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="770" y="1079" as="targetPoint" />
+            <mxPoint x="740" y="1079" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A7drEQn15BSyyHfxk9KO-100" value="ACCETPOR_TO_LEADER" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="A7drEQn15BSyyHfxk9KO-100" value="ACCEPTOR_TO_LEADER" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="1039" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="A7drEQn15BSyyHfxk9KO-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A7drEQn15BSyyHfxk9KO-102" target="A7drEQn15BSyyHfxk9KO-104">
@@ -185,7 +185,7 @@
         <mxCell id="A7drEQn15BSyyHfxk9KO-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A7drEQn15BSyyHfxk9KO-107" target="A7drEQn15BSyyHfxk9KO-146">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="A7drEQn15BSyyHfxk9KO-107" value="LEADER_TO_ACCETPOR" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="A7drEQn15BSyyHfxk9KO-107" value="LEADER_TO_ACCEPTOR" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="1178" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="A7drEQn15BSyyHfxk9KO-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A7drEQn15BSyyHfxk9KO-110" target="A7drEQn15BSyyHfxk9KO-112">
@@ -259,7 +259,7 @@
           <mxGeometry x="950" y="848" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A7drEQn15BSyyHfxk9KO-135" value="1.同步其它zone的gChat&lt;br&gt;2.持久化&lt;br&gt;3.更新缓存&lt;br&gt;3.同zone的proxy派发" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="775" y="1049" width="145" height="60" as="geometry" />
+          <mxGeometry x="745" y="1049" width="145" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A7drEQn15BSyyHfxk9KO-138" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A7drEQn15BSyyHfxk9KO-137">
           <mxGeometry relative="1" as="geometry">
